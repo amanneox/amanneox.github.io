@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9egudd');
+  src:  url('fonts/icomoon.eot?9egudd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9egudd') format('truetype'),
+    url('fonts/icomoon.woff?9egudd') format('woff'),
+    url('fonts/icomoon.svg?9egudd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e90a";
+}
+.icon-certificate:before {
+  content: "\e906";
+}
+.icon-arrow:before {
+  content: "\e90b";
+}
+.icon-contacts:before {
+  content: "\e907";
+}
+.icon-home:before {
+  content: "\e908";
+}
+.icon-info:before {
+  content: "\e909";
+}
+.icon-share:before {
+  content: "\e905";
+}
+.icon-download:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e903";
+  color: #3b5998;
+}
+.icon-brand:before {
+  content: "\e904";
+  color: #1da1f2;
+}
+.icon-twitter:before {
+  content: "\e904";
+  color: #1da1f2;
+}
+.icon-github:before {
+  content: "\e902";
+}
+.icon-linked-in:before {
+  content: "\e900";
+  color: #0077b5;
+}
+.icon-menu:before {
+  content: "\e9bd";
+}

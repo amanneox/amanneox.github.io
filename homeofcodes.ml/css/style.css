@@ -1,0 +1,141 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 100%;
+  font-family: "Droid Serif", serif;
+  color: #7f8c97;
+  background-color: #e9f0f5;
+}
+
+a {
+  color: #acb7c0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.icon-menu{
+  font-size: 2rem;
+}
+.button-collapse{
+
+  margin: 1rem ;
+}
+
+img{
+  border-radius: 1.2em;
+}
+.btn{
+  border-radius: 1.2em !important;
+  background-color: #2979FF !important;
+}
+span{
+    font-family: 'Quicksand', sans-serif !important;
+}
+#brand{
+  display: flex;
+    justify-content: center;
+
+}
+@media only screen and (min-width: 993px)
+{
+nav a.button-collapse {
+    display:block;
+}
+}
+body > nav > div{
+  background-color: #536DFE !important;
+}
+#tabs{
+  margin-top: 1rem !important;
+}
+
+#tabs > div > ul > li > a:active{
+    color: #2979FF !important;
+}
+#tabs > div > ul > li > a{
+    color: #039be5 !important;
+}
+li.indicator{
+  background-color:  #536DFE !important;
+}
+#search>input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    color: #acb7c0;
+    font-size: 16px;
+    background-color: white;
+
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#search>input[type=text]:focus {
+    width: 50%;
+}
+.title{
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.share-icon{
+  font-size: 1rem;
+}
+#loading-bar{
+  background-color: #212121 !important;
+}
+#article{
+  margin-top: 2rem;
+}
+#article-top{
+  margin: 1em;
+}
+#login{
+  margin-top: 5rem;
+
+}
+hr {
+  border: 0;
+  border-top: 4px double #8c8c8c;
+  text-align: center;
+}
+hr:after {
+  content: '\2665';
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  background: #fff;
+  color: #8c8c8c;
+  font-size: 18px;
+}
+#noresult{
+font-size: 2em;
+}
